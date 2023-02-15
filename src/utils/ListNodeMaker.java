@@ -1,5 +1,8 @@
+package utils;
+
+
 public class ListNodeMaker {
-  public ListNode listNodeMaker(int[] arr){
+  public static ListNode listNodeMaker(int[] arr){
     if (arr.length == 0) return null;
 
     ListNode root = new ListNode(arr[0]);

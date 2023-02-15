@@ -1,3 +1,5 @@
+package utils;
+
 public class ListNode {
   int val;
   ListNode next;

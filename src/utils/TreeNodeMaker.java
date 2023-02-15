@@ -1,8 +1,10 @@
+package utils;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class TreeNodeMaker {
-  public TreeNode treeNodeMaker(Integer[] arr) {
+  public static TreeNode treeNodeMaker(Integer[] arr) {
     if (arr.length == 0) return null;
 
     TreeNode root = new TreeNode(arr[0]);
