@@ -1,6 +1,3 @@
-package utils;
-
-
 public class ListNodeMaker {
   public static ListNode listNodeMaker(int[] arr){
     if (arr.length == 0) return null;
